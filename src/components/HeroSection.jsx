@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className=" w-full flex mt-10 justify-center">
       <iframe
     className="rounded-lg w-full lg:w-3/4 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
-    src="https://www.youtube.com/embed/THda6XYI9SM&ab_channel=ReactWise"
+    src="https://www.youtube.com/embed/THda6XYI9SM?ab_channel=ReactWise"
     title="YouTube video player"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
