@@ -2,6 +2,18 @@ import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.jpeg'
+import logo1 from '../assets/logo1.png'
+import logo2 from '../assets/yc.png'
+import logo3 from '../assets/cellcraft logo.png'
+import logo4 from '../assets/CGIH_white.png'
+import logo5 from '../assets/CX_logo_short_edited.png'
+import logo6 from '../assets/idorsia.png'
+import logo7 from '../assets/images-removebg-preview_edited.png'
+import logo8 from '../assets/Notthingham logo.png'
+import logo9 from '../assets/tum_white.png'
+import logo10 from '../assets/UC-I-Chile_1-1-scaled-removebg-preview.png'
+import logo11 from '../assets/vapourtec-logo-colour.png'
+import logo12 from '../assets/logo2.png'
 
 export const navItems = [
   { label: "Team", href: "#" },
@@ -68,6 +80,11 @@ export const publishList = [
   },
 ];
 
+
+export const partnerLogos = [
+  logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12
+];
+
 export const checklistItems = [
   {
     title: "Data-driven optimization",
@@ -128,26 +145,10 @@ export const pricingOptions = [
   
 ];
 
-export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
-];
-
-export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
-];
-
-export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+export const footerItems = [
+  "© 2024 ReactWise Technologies Ltd",
+  "All rights reserved.",
+  "Impressum",
+  "Privacy policy",
+  "Terms of Service",
 ];
