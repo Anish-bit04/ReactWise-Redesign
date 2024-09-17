@@ -1,47 +1,70 @@
+import img1 from '../assets/img1.png'
+import img2 from '../assets/img2.png'
+import img3 from '../assets/img3.png'
+import img4 from '../assets/img4.jpeg'
+
 export const navItems = [
   { label: "Team", href: "#" },
   { label: "News", href: "#" },
   { label: "Carrers", href: "#" },
   { label: "Contact", href: "#" },
+  { label: "Onboarding", href: "#" }
 ];
 
 
-export const publishdoc = [
+export const publishList = [
   {
     id:1,
     text: "The effect of chemical representation on active machine learning towards closed-loop optimization",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Multivariate chemical reaction optimization involving catalytic systems is a non-trivial task due to the high number of continuous parameters and discrete choices...",
+      image:img1,
+      url:"https://pubs.rsc.org/en/content/articlelanding/2022/re/d2re00008c"
   },
   {
     id:2,
-    text: "Multi-Platform Compatibility",
+    text: "Accelerated chemical reaction optimization using multi-task learning",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Functionalization of C–H bonds is a key challenge in medicinal chemistry, particularly for fragment-based drug discovery.  We explore the use of multitask ...",
+      image:img2,
+      url:"https://pubs.acs.org/doi/full/10.1021/acscentsci.3c00050"
+
   },
   {
     id:3,
-    text: "Built-in Templates",
+    text: "ORDerly: Datasets and benchmarks for chemical reaction data",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "ORDerly is an open-source Python package for customizable and reproducible preparation of reaction data stored in accordance with the ...",
+      image:img3,
+      url:"https://pubs.acs.org/doi/10.1021/acs.jcim.4c00292"
+
   },
   {
     id:4,
-    text: "Real-Time Preview",
+    text: "A Brief Introduction to Chemical Reaction Optimization",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Identification of optimal chemical reaction parameters involving continuous (time, temperature, pressure) and categorical variables (catalyst, solvent, reagent) ...",
+      image:img4,
+      url:"https://pubs.acs.org/doi/full/10.1021/acs.chemrev.2c00798"
+
   },
   {
     id:5,
-    text: "Collaboration Tools",
+    text: "Automated ph adjustment driven by robotic workflows and active machine learning",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Buffer solutions have tremendous importance in biological systems and in formulated products. Modelling the pH response for multi ...",
+      image:img1,
+      url:"https://www.sciencedirect.com/science/article/pii/S1385894722045788"
+
   },
   {
     id:6,
-    text: "Analytics Dashboard",
+    text: "Quantitative In Silico Prediction of the Rate of Protodeboronation by a Mechanistic Density Functional",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "The Suzuki reaction represents one of the most versatile and relevant reactions towards drug manufacturing. However, understanding ...",
+      image:img2,
+      url:"https://pubs.acs.org/doi/full/10.1021/acs.jpca.2c08250"
+
   },
 ];
 
