@@ -14,6 +14,8 @@ import logo9 from '../assets/tum_white.png'
 import logo10 from '../assets/UC-I-Chile_1-1-scaled-removebg-preview.png'
 import logo11 from '../assets/vapourtec-logo-colour.png'
 import logo12 from '../assets/logo2.png'
+import linkdin from '../assets/linnkedin.png'
+import github from '../assets/github.png'
 
 export const navItems = [
   { label: "Team", href: "#" },
@@ -145,10 +147,17 @@ export const pricingOptions = [
   
 ];
 
-export const footerItems = [
-  "© 2024 ReactWise Technologies Ltd",
+export const address = [
+  "info@reactwise.com",
+  "7 Bell Yard",
+  "London WC2A 2JR",
+  "United Kingdom",
+];
+export const followIcon = [linkdin, github];
+export const copyright = [
+  "@2024 ReactWise Technologies Ltd",
   "All rights reserved.",
-  "Impressum",
   "Privacy policy",
   "Terms of Service",
+  "Developed with ❤️‍🔥 by Anish"
 ];

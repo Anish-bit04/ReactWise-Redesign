@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-    <h1 className="text-3xl font-medium sm:text-5xl lg:text-6xl text-center mt-16 tracking-wide mb-10">Our{" "}
+    <h1 className="text-3xl font-medium sm:text-5xl lg:text-6xl text-center mt-20 tracking-wide mb-16">Our{" "}
     <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
     Publications 
         </span>

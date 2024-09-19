@@ -17,8 +17,8 @@ const App = () => {
         <Publication />
         <Workflow />
         <Pricing />
-        <Footer />
       </div>
+        <Footer />
     </>
   );
 };
